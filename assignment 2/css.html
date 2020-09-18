@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Details of css</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .row {
+        max-width: 80%;
+        margin-left: 10%;
+      }
+      .mid {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+      }
+      #heading {
+        display: flex;
+        justify-content: center;
+        font-weight: 900;
+        color: #cd512f;
+        font-size: 32px;
+        font-family: sans-serif;
+      }
+      .img-fluid {
+        width: 400px;
+        height: auto;
+      }
+      .list-title {
+        color: #cd512f;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "Quicksand", sans-serif;
+      }
+      .mid > a {
+        margin: auto;
+      }
+      .list {
+        display: flex;
+        flex-direction: column;
+        font-weight: bold;
+        font-size: 24px;
+        font-family: "Quicksand", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="heading">Details of CSS</h1>
+    <div class="list">
+      <h2>CSS Selectors</h2>
+      <p>
+        CSS selectors define the elements to which a set of CSS rules apply.
+      </p>
+      <li>
+        Universal selector:- Selects all elements. Optionally, it may be
+        restricted to a specific namespace or to all namespaces.
+      </li>
+      <li>
+        Type selector:- Selects all elements that have the given node name.
+      </li>
+
+      <li>
+        Class selector:- Selects all elements that have the given class
+        attribute.
+      </li>
+
+      <li>
+        ID selector:- Selects an element based on the value of its id attribute.
+        There should be only one element with a given ID in a document.
+      </li>
+
+      <li>
+        Attribute selector:- Selects all elements that have the given attribute.
+      </li>
+    </div>
+    <div class="list">
+      <h2>CSS Property Name</h2>
+      <p>
+        CSS property name selects the property of the element to be changed.
+      </p>
+      <p>Some examples:-</p>
+      <li>
+        align-content :- Specifies the alignment between the lines inside a
+        flexible container when the items do not use all available space
+      </li>
+      <li>
+        align-items :- Specifies the alignment for items inside a flexible
+        container
+      </li>
+      <li>
+        align-self :- Specifies the alignment for selected items inside a
+        flexible container
+      </li>
+      <li>all :- Resets all properties (except unicode-bidi and direction)</li>
+    </div>
+    <div class="list">
+      <h2>CSS Property value</h2>
+      <p>
+        CSS property value is given to the property following a colon (NOT an
+        “equals” sign). Semi-colons are used to separate the properties.
+      </p>
+    </div>
+    
+    <a href="question3.html" style="margin: auto"><h1>Home</h1></a>
+   
+  </body>
+</html>

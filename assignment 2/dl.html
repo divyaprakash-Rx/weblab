@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Descriptive Lists</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .row {
+        max-width: 80%;
+        margin-left: 10%;
+      }
+      .mid {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+      }
+      #heading {
+        display: flex;
+        justify-content: center;
+        font-weight: 900;
+        color: #cd512f;
+        font-size: 32px;
+        font-family: sans-serif;
+      }
+      .img-fluid {
+        width: 400px;
+        height: auto;
+      }
+      .list-title {
+        color: #cd512f;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "Quicksand", sans-serif;
+      }
+      .mid > a {
+        margin: auto;
+      }
+      .list {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-weight: bold;
+        font-size: 24px;
+        font-family: "Quicksand", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="heading">
+      Descriptive List - This arranges your items in the same way as they are
+      arranged in a dictionary.
+    </h1>
+    <div class="list">
+      <h2>This is a Description List</h2>
+
+      <dl>
+        <dt>This is the first item.</dt>
+        <dd>- This is the description of the first item.</dd>
+        <dt>This is the second item.</dt>
+        <dd>- This is the description of the second item.</dd>
+      </dl>
+    </div>
+    <h1 id="heading" style="margin-top: 10vh">Navigations</h1>
+    <a href="index.html" style="margin: auto"><h1>Home</h1></a>
+    <div class="row mid">
+      <a href="dl.html"
+        ><img src="dl.png" alt="dl" />
+        <p class="list-title">Descriptive Lists</p></a
+      >
+      <a href="ul.html"
+        ><img src="ul.png" alt="ul" />
+        <p class="list-title">Unordered Lists</p></a
+      >
+      <a href="ol.html"
+        ><img src="ol.png" alt="ol" />
+        <p class="list-title">Ordered Lists</p></a
+      >
+    </div>
+  </body>
+</html>
