@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Atrributes</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .row {
+        max-width: 80%;
+        margin-left: 10%;
+      }
+      .mid{
+        display: flex;
+        justify-content: center;
+        margin:auto;
+      }
+      #heading {
+        display: flex;
+        justify-content: center;
+        font-weight: 900;
+        color: #cd512f;
+        font-size: 32px;
+        font-family: sans-serif;
+      }
+      .img-fluid {
+        width: 400px;
+        height: auto;
+      }
+      td {
+        justify-content: center;
+        align-items: center;
+        font-family: "Quicksand", sans-serif;
+      }
+
+      table {
+        display: flex;
+        justify-content: center;
+        font-family: "Quicksand", sans-serif;
+      }
+      th,
+      td {
+        font-family: "Quicksand", sans-serif;
+        padding: 10px 0px 0px 60px;
+      }
+      th {
+        font-size: 1.3rem;
+        color: #c50515;
+      }
+
+      td {
+        color: #3e3e3e;
+        font-family: "Quicksand", sans-serif;
+      }
+      th,
+      td {
+        border: 4px solid #ddd;
+        padding: 20px;
+        font-weight: bold;
+      }
+      table {
+        margin-top: 10%;
+      }
+      .list-title{
+        color:#cd512f;
+        font-size:20px;
+        font-weight: bold;
+        font-family:'Quicksand',sans-serif;
+      }
+      .mid>a{
+        margin:auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="heading">div tags</h1>
+     <div class="row" style="background-color:rgb(118, 216, 255);padding: 1%;">
+      <table>
+        <tr>
+          <td colspan="1"><h1>Divya Prakash</h1></td>
+          <td colspan="2"><h1>1906015</h1></td>
+        </tr>
+        </hr>
+        <tr>
+          <th>Car image</th>
+          <th>Car Description</th>
+          <th>Car link</th>
+        </tr>
+        <tr>
+          <td>
+            <img
+              class="img-fluid"
+              src="./lamborghini.jpg"
+              alt="image"
+            />
+          </td>
+          <td>
+            Following the Miura, Islero, Countach and Urraco, today’s most
+            iconic Lamborghini reflects the heritage of the historic S models
+            into the Aventador S. The exclusive design and a V12 engine that
+            develops an extraordinary 740 hp combine with the most sophisticated
+            technology available, LDVA (Lamborghini Dinamica Veicolo Attiva,
+            Lamborghini Active Vehicle Dynamics).
+          </td>
+          <td>
+            <a
+              href="https://www.lamborghini.com/en-en/models/aventador/aventador-"
+              >Check details of Avendator S</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              class="img-fluid"
+              src="./huracan.jpg"
+              alt="image"
+            />
+          </td>
+          <td>
+            The Huracán EVO is the evolution of the most successful V10-powered
+            Lamborghini ever. The result of fine-tuning and refining existing
+            features, combined with new design solutions that increase
+            performance, the car stands out for its ability to anticipate and
+            cater to the driver’s behavior, expectations and desires.
+          </td>
+          <td>
+            <a
+              href="https://www.lamborghini.com/en-en/models/huracan/huracan-evo"
+            >
+              Check details of Huracan Evo</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              class="img-fluid"
+              src="./urus.jpg"
+              alt="image"
+            />
+          </td>
+          <td>
+            Lamborghini Urus is the first Super Sport Utility Vehicle in the
+            world to merge the soul of a super sports car with the functionality
+            of an SUV. Powered by a 4.0-liter twin-turbo V8 engine producing 650
+            CV and 850 Nm of torque, Urus accelerates from 0 to 62 mph in 3.6
+            seconds and reaches a top speed of 190 mph. The design, performance,
+            driving dynamics and driving emotion flow effortlessly into this
+            visionary approach to Lamborghini DNA.
+          </td>
+          <td>
+            <a href="https://www.lamborghini.com/en-en/models/urus"
+              >Check details for urus</a
+            >
+          </td>
+        </tr>
+      </table>
+    </div>
+    <h1 id="heading">Difference betweeen HTML Tags And HTML Attributes with div</h1>
+    <div class="row" style="background-color: blanchedalmond;padding: 1%;">
+      <table>
+        <tr style="background-color: #ddd">
+          <td colspan="1"><h1>HTML TAGS</h1></td>
+          <td colspan="2"><h1>HTML ATTRIBUTES</h1></td>
+        </tr>
+        <tr>
+          <td>
+            <ol>
+              <li>HTML tags are used to hold the HTML element.</li>
+              <li>HTML tag starts with < and ends with ></li>
+              <li>
+                HTML tags are almost like keywords where every single tag has
+                unique meaning.
+              </li>
+            </ol>
+          </td>
+          <td>
+            <ol>
+              <li>
+                HTML attributes are used to describe the characteristic of an
+                HTML element in detail.
+              </li>
+              <li>HTML attributes are found only in the starting tag.</li>
+              <li>
+                HTML attributes specify various additional properties to the
+                existing HTML element.
+              </li>
+            </ol>
+          </td>
+        </tr>
+        <tr style="background-color: #ddd">
+          <td colspan="1"><h1>Divya Prakash</h1></td>
+          <td colspan="2"><h1>1906015</h1></td>
+        </tr>
+      </table>
+    </div>
+    
+      <div class="row" style="display: flex;justify-content: center;padding: 5%;background-color: rgb(160, 190, 247);margin-left: 0%;max-width: 100vw;margin-top: 5%;">
+        <footer><div class="col-4">
+            <h1 style="font-family: 'Quicksand';color:#3e3e3e;text-align: center;">
+            &copy; Divya Prakash 2020</h1>
+            <h2 style="font-family: 'Quicksand';color:#3e3e3e;text-align: center;">
+            Happy Coding :-)</h2>
+          </div>
+        </div></footer>
+      </div>
+   
+  </body>
+</html>

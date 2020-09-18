@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <style>
+    body {
+      background-color: floralwhite;
+    }
+    .main-row {
+      max-width: 60%;
+      margin-left: 20%;
+      border-radius: 30px;
+    }
+    .mid {
+      display: flex;
+      justify-content: center;
+      margin: auto;
+    }
+    #heading {
+      display: flex;
+      justify-content: center;
+      font-weight: 900;
+      color: #8d6801;
+      font-size: 32px;
+      font-family: sans-serif;
+      margin-top: 6%;
+      margin-bottom: 5%;
+    }
+    .img-fluid {
+      width: 400px;
+      height: auto;
+    }
+    td {
+      justify-content: center;
+      align-items: center;
+      font-family: "Quicksand", sans-serif;
+    }
+    .table-heading {
+      display: flex;
+      justify-content: center;
+      font-weight: 900;
+      font-family: sans-serif;
+      color: rgb(161, 108, 0);
+    }
+    .formgroup {
+      box-shadow: 0 0 6px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+      width: 100%;
+      margin-bottom: 6%;
+    }
+    table {
+      display: flex;
+      font-family: "Quicksand", sans-serif;
+      min-width: 100%;
+    }
+    th,
+    td {
+      font-family: "Quicksand", sans-serif;
+      padding: 10px 0px 0px 60px;
+    }
+    th {
+      font-size: 1.3rem;
+      color: #c50515;
+    }
+
+    td {
+      color: #3e3e3e;
+      font-family: "Quicksand", sans-serif;
+    }
+    th,
+    td {
+      padding: 40px;
+      font-weight: bold;
+    }
+    table {
+      margin-top: 5%;
+    }
+    .list-title {
+      color: #cd512f;
+      font-size: 20px;
+      font-weight: bold;
+      font-family: "Quicksand", sans-serif;
+    }
+    .mid > a {
+      margin: auto;
+    }
+    input {
+      border-radius: 5px;
+      padding: 10px;
+      font-family: "Quicksand", sans-serif;
+    }
+  </style>
+  <body>
+    <h1 id="heading">Registration Form</h1>
+    <div
+      class="main-row"
+      style="
+        background: #fcfcfc;
+        box-shadow: 0 0 21px rgba(0, 0, 0, 0.25);
+        border-radius: 39px;
+        padding: 1%;
+      "
+    >
+      <form action="get">
+        <div class="formgroup">
+          <h2 class="table-heading">Basic Details</h2>
+          <table>
+            <tr>
+              <td>Form Number</td>
+              <td>
+                <input
+                  type="text"
+                  name="formno"
+                  id="formno"
+                  value="3210984245"
+                  disabled
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Name</td>
+              <td>
+                <input
+                  type="text"
+                  name="firstname"
+                  id="firstname"
+                  placeholder="Name"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Roll Number</td>
+              <td>
+                <input
+                  type="number"
+                  name="rollno"
+                  id="rollno"
+                  placeholder="Roll No."
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Gender</td>
+              <td>
+                <input
+                  type="radio"
+                  name="gender"
+                  id="gender"
+                  value="female"
+                /><label>Male</label>
+                <input
+                  type="radio"
+                  name="gender"
+                  id="gender"
+                  value="female"
+                /><label>Female</label>
+              </td>
+            </tr>
+            <tr>
+              <td>DOB</td>
+              <td><input type="date" name="dob" id="dob" /></td>
+            </tr>
+            <tr>
+              <td>PWD</td>
+              <td>
+                <input type="radio" name="pwd" id="pwd" /><label>Yes</label>
+                <input type="radio" name="pwd" id="pwd" /><label>No</label>
+              </td>
+            </tr>
+            <tr>
+              <td>Category</td>
+              <td>
+                <select name="category" id="category">
+                  <option value="General">General</option>
+                  <option value="OBC">OBC</option>
+                  <option value="SC">SC</option>
+                  <option value="ST">ST</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>Address</td>
+              <td>
+                <textarea
+                  name="address"
+                  id="address"
+                  cols="100"
+                  rows="10"
+                  placeholder="Enter Address"
+                ></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td>PIN CODE</td>
+              <td><input type="number" name="pincode" id="pincode" /></td>
+            </tr>
+            <tr>
+              <td>PHONE OF STUDENT</td>
+              <td>
+                <input type="number" name="studentphone" id="studentphone" />
+              </td>
+            </tr>
+            <tr>
+              <td>PHONE OF GUARDIAN</td>
+              <td>
+                <input type="number" name="guardianphone" id="guardianphone" />
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="formgroup">
+          <h2 class="table-heading">Academic Information</h2>
+          <table>
+            <tr>
+              <td>COURSE</td>
+              <td>
+                <select name="course" id="course">
+                  <option value="B.Tech">B.Tech</option>
+                  <option value="M.Tech">M.Tech</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>Branch</td>
+              <td>
+                <input
+                  type="text"
+                  name="branch"
+                  id="branch"
+                  placeholder="Branch"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Semester</td>
+              <td>
+                <select name="semester" id="semester">
+                  <option value="1st">1st</option>
+                  <option value="2nd">2nd</option>
+                  <option value="3rd">3rd</option>
+                  <option value="4th">4th</option>
+                  <option value="5th">5th</option>
+                  <option value="6th">6th</option>
+                  <option value="7th">7th</option>
+                  <option value="8th">8th</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>All India Rank</td>
+              <td>
+                <input type="number" name="air" id="air" /><label
+                  >(2018 JEE Main/Gate)</label
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>Category Rank</td>
+              <td>
+                <input type="number" name="cair" id="cair" /><label
+                  >(2018 JEE Main/Gate)</label
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>CGPA</td>
+              <td>
+                <input type="number" name="cgpa" id="cgpa" placeholder="CGPA" />
+              </td>
+            </tr>
+            <tr>
+              <td>Backlog</td>
+              <td>
+                <input
+                  type="radio"
+                  name="backlog"
+                  id="backlog"
+                  value="yes"
+                /><label for="backlog">Yes</label>
+                <input
+                  type="radio"
+                  name="backlog"
+                  id="backlog"
+                  value="no"
+                /><label for="backlog">No</label>
+              </td>
+            </tr>
+            <tr>
+              <td>Hostel Accodomation</td>
+              <td>
+                <input
+                  type="radio"
+                  name="hostel"
+                  id="hostel"
+                  value="yes"
+                /><label for="hostel">Yes</label>
+                <input
+                  type="radio"
+                  name="hostel"
+                  id="hostel"
+                  value="no"
+                /><label for="hostel">No</label>
+              </td>
+            </tr>
+            <tr>
+              <td>Name of Hostel</td>
+              <td>
+                <input
+                  type="text"
+                  name="hostelname"
+                  id="hostelname"
+                  placeholder="Hostel Name"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Room Number</td>
+              <td>
+                <input type="number" name="roomno" id="roomno" />
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="formgroup">
+          <h2 class="table-heading">Account Details for Refunding Process</h2>
+          <table>
+            <tr>
+              <td>Account Holder Name</td>
+              <td>
+                <input
+                  type="text"
+                  name="acname"
+                  id="acname"
+                  placeholder="Account Holder Name"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Account Number</td>
+              <td>
+                <input
+                  type="text"
+                  name="acno"
+                  id="acno"
+                  placeholder="Account No."
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>IFSC Code</td>
+              <td>
+                <input
+                  type="text"
+                  name="ifsc"
+                  id="ifsc"
+                  placeholder="IFSC Code"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Bank Name</td>
+              <td>
+                <input
+                  type="text"
+                  name="bankname"
+                  id="bankname"
+                  placeholder="Bank Name"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Branch</td>
+              <td>
+                <input
+                  type="text"
+                  name="bankbranch"
+                  id="bankbranch"
+                  placeholder="Branch"
+                />
+              </td>
+            </tr>
+          </table>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
