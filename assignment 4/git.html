@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Assignment 4</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .row {
+        max-width: 80%;
+        margin-left: 10%;
+      }
+      .mid {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+      }
+      #heading {
+        display: flex;
+        justify-content: center;
+        font-weight: 900;
+        color: #cd512f;
+        font-size: 32px;
+        font-family: sans-serif;
+        margin-top: 3%;
+      }
+      .img-fluid {
+        width: 400px;
+        height: auto;
+      }
+      td {
+        justify-content: center;
+        align-items: center;
+        font-family: "Quicksand", sans-serif;
+      }
+
+      table {
+        display: flex;
+        justify-content: center;
+        font-family: "Quicksand", sans-serif;
+      }
+      th,
+      td {
+        font-family: "Quicksand", sans-serif;
+        padding: 10px 0px 0px 60px;
+      }
+
+      td {
+        color:  #531101;
+        font-family: "Quicksand", sans-serif;
+      }
+      td {
+        border: 4px solid #ddd;
+        padding: 20px;
+        font-weight: bold;
+      }
+      table {
+        margin-top: 10%;
+      }
+      .list-title {
+        color: #cd512f;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "Quicksand", sans-serif;
+      }
+      .mid > a {
+        margin: auto;
+      }
+      strong {
+        font-weight: 900;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      src="Octocat.png"
+      alt="octocat"
+      style="
+        height: 100%;
+        width: auto;
+        position: fixed;
+        opacity: 0.1;
+        margin: auto;
+        margin-left: 20vw;
+        z-index: -1;
+      "
+    />
+    <h1 id="heading">Version Control</h1>
+    <div
+      class="row"
+      style="
+        font-family: 'Quicksand', sans-serif;
+        max-width: 60%;
+        margin: auto;
+        margin-top: 3%;
+        color: #531101;
+        font-weight: bold;
+        font-size: 24px;
+      "
+    >
+      Version control is a system that records changes to a file or set of files
+      over time so that you can recall specific versions later. If you are a
+      graphic or web designer and want to keep every version of an image or
+      layout (which you would most certainly want to), a Version Control System
+      (VCS) is a very wise thing to use. It allows to revert selected files back
+      to a previous state, revert the entire project back to a previous state,
+      compare changes over time, see who last modified something that might be
+      causing a problem, who introduced an issue and when, and more.
+    </div>
+    <div id="heading"><img src="git.png" alt="git" /></div>
+    <div
+      class="row"
+      style="
+        font-family: 'Quicksand', sans-serif;
+        max-width: 60%;
+        margin: auto;
+        margin-top: 3%;
+        color: #531101;
+        font-weight: bold;
+        font-size: 24px;
+      "
+    >
+      Git is a free and open source distributed version control system designed
+      to handle everything from small to very large projects with speed and
+      efficiency. Git is easy to learn and has a tiny footprint with lightning
+      fast performance. It outclasses SCM tools like Subversion, CVS, Perforce,
+      and ClearCase with features like cheap local branching, convenient staging
+      areas, and multiple workflows.
+    </div>
+    <div id="heading">
+      <img style="max-height: 100px" src="Github_Mark.png" alt="log" /><img
+        style="max-height: 100px"
+        src="GitHub_Logo.png"
+        alt="GitHub"
+      />
+    </div>
+    <div
+      class="row"
+      style="
+        font-family: 'Quicksand', sans-serif;
+        max-width: 60%;
+        margin: auto;
+        margin-top: 3%;
+        color: #531101;
+        font-weight: bold;
+        font-size: 24px;
+      "
+    >
+      GitHub, Inc. is an American multinational corporation that provides
+      hosting for software development and version control using Git. It offers
+      the distributed version control and source code management (SCM)
+      functionality of Git, plus its own features. It provides access control
+      and several collaboration features such as bug tracking, feature requests,
+      task management, and wikis for every project. Headquartered in California,
+      it has been a subsidiary of Microsoft since 2018.<br />
+      GitHub offers its basic services free of charge. Its more advanced
+      professional and enterprise services are commercial. Free GitHub accounts
+      are commonly used to host open-source projects. As of January 2019, GitHub
+      offers unlimited private repositories to all plans, including free
+      accounts, but allowed only up to three collaborators per repository for
+      free.
+    </div>
+    <table style="max-width: 70%; margin: auto; margin-top: 3%">
+        <tr><td colspan="2" style="text-align: center;">Common Git Commands</td></tr>
+      <tr>
+        <td>
+          <div style="display: flex">
+            <img src="Octocat.png" alt="octocat" style="max-height: 30px" /> git
+            fork
+          </div>
+        </td>
+        <td>
+          A <strong>fork</strong> is a copy of a repository. Forking a
+          repository allows you to freely experiment with changes without
+          affecting the original project.<br />You can make any changes to a
+          fork, such as:- <br /><br /><strong> Creating branches:</strong>
+          Branches allow you to build new features or test out ideas without
+          putting your main project at risk.<br /><strong>
+            Opening pull requests:</strong
+          >
+          If you are hoping to contribute back to the original repository, you
+          can send a request to the original author to pull your fork into their
+          repository by submitting a pull request.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div style="display: flex">
+            <img src="Octocat.png" alt="octocat" style="max-height: 30px" /> git
+            commit
+          </div>
+        </td>
+        <td>
+          The git commit command captures a snapshot of the project's currently
+          staged changes. Committed snapshots can be thought of as “safe”
+          versions of a project—Git will never change them unless you explicitly
+          ask it to.
+
+          <br /><br />Using the "git commit" command only saves a new commit
+          object in the local Git repository.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div style="display: flex">
+            <img src="Octocat.png" alt="octocat" style="max-height: 30px" /> git
+            push
+          </div>
+        </td>
+        <td>
+          The push command can be considered as a tool to transfer commits
+          between local and remote repositories.It is used to publish new local
+          commits on a remote server.
+        </td>
+      </tr>
+    </table>
+    <img src="img.svg" alt="img" />
+    <div
+      class="row"
+      style="
+        display: flex;
+        justify-content: center;
+        padding: 0.5%;
+        background-color: #f19075;
+        margin-left: 0%;
+        max-width: 100vw;
+        margin-top: 2%;
+      "
+    >
+      <footer id="footer">
+        <div class="col-4">
+          <h1
+            style="font-family: 'Quicksand'; color: #3e3e3e; text-align: center"
+          >
+            &copy; Divya Prakash 2020
+          </h1>
+          <h2
+            style="font-family: 'Quicksand'; color: #3e3e3e; text-align: center"
+          >
+            Happy Coding :-)
+          </h2>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
