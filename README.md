@@ -12,6 +12,6 @@ All Assignment for the web class
 
 [Assignment 3 - Reg form](https://divyaprakash-rx.github.io/weblab/assignment%203/1906015_assignment%203%20form.html)
 
-[Assignment 4 - Personal Details](https://divyaprakash-rx.github.io/weblab/assignment%203/1906015_assignment%203%20form.html)
+[Assignment 4 - Personal Details](https://divyaprakash-rx.github.io/weblab/assignment%204/personal.html)
 
 [Assignment 4 - Git & Github](https://divyaprakash-rx.github.io/weblab/assignment%204/git.html)
