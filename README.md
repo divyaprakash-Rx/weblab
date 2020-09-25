@@ -15,3 +15,7 @@ All Assignment for the web class
 [Assignment 4 - Personal Details](https://divyaprakash-rx.github.io/weblab/assignment%204/personal.html)
 
 [Assignment 4 - Git & Github](https://divyaprakash-rx.github.io/weblab/assignment%204/git.html)
+
+[Assignment 5 - Responsive images](https://divyaprakash-rx.github.io/weblab/assignment%205/images.html)
+
+[Assignment 5 - Bootstrap Components](https://divyaprakash-rx.github.io/weblab/assignment%205/bootstrap.html)
