@@ -1,1 +1,13 @@
 theme: jekyll-theme-cayman
+author:
+ name: Divya Prakash
+ email: divyap.ug19.cs@nitp.ac.in
+ description: All the assignments done during web classes
+ 
+header_pages:
+ - README.md
+
+minima:
+ social_links:
+  linkedin: https://www.linkedin.com/in/divyaprakashrx/
+  github: https://github.com/divyaprakash-Rx
