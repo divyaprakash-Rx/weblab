@@ -1,16 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    
-    <title>Assignment 4</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=1"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Responsive Backround</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap"
       rel="stylesheet"
     />
+     <script
+      src="https://kit.fontawesome.com/05f38f1382.js"
+      crossorigin="anonymous"
+    ></script>
     <style>
-      .row {
-        max-width: 80%;
-        margin-left: 10%;
+      .row{
+        padding-left: 0px;
+        padding-right: 0px;
       }
       .mid {
         display: flex;
@@ -78,19 +93,20 @@
     <img
       src="Octocat.png"
       alt="octocat"
+      class="img-fluid"
       style="
         height: 100%;
         width: auto;
+        min-height: 100%;
         position: fixed;
-        opacity: 0.1;
-        margin: auto;
         margin-left: 20vw;
+        opacity: 0.1;
         z-index: -1;
-      "
+      " 
     />
-    <h1 id="heading">Version Control</h1>
-    <div
-      class="row"
+    <h1 id="heading" class="text-uppercase" >Version Control</h1>
+    <h2
+      class="row text-lowercase"
       style="
         font-family: 'Quicksand', sans-serif;
         max-width: 60%;
@@ -98,7 +114,8 @@
         margin-top: 3%;
         color: #531101;
         font-weight: bold;
-        font-size: 24px;
+                font-size: 24px;
+
       "
     >
       Version control is a system that records changes to a file or set of files
@@ -109,10 +126,10 @@
       to a previous state, revert the entire project back to a previous state,
       compare changes over time, see who last modified something that might be
       causing a problem, who introduced an issue and when, and more.
-    </div>
+  </h2>
     <div id="heading"><img src="git.png" alt="git" /></div>
-    <div
-      class="row"
+    <h2
+      class="row text-lowercase"
       style="
         font-family: 'Quicksand', sans-serif;
         max-width: 60%;
@@ -129,7 +146,7 @@
       fast performance. It outclasses SCM tools like Subversion, CVS, Perforce,
       and ClearCase with features like cheap local branching, convenient staging
       areas, and multiple workflows.
-    </div>
+</h2>
     <div id="heading">
       <img style="max-height: 100px" src="Github_Mark.png" alt="log" /><img
         style="max-height: 100px"
@@ -137,8 +154,8 @@
         alt="GitHub"
       />
     </div>
-    <div
-      class="row"
+    <h2
+      class="row text-lowercase"
       style="
         font-family: 'Quicksand', sans-serif;
         max-width: 60%;
@@ -162,8 +179,8 @@
       offers unlimited private repositories to all plans, including free
       accounts, but allowed only up to three collaborators per repository for
       free.
-    </div>
-    <table style="max-width: 70%; margin: auto; margin-top: 3%">
+  </h2>
+    <table style="max-width: 70%; margin: auto; margin-top: 3%;">
         <tr><td colspan="2" style="text-align: center;">Common Git Commands</td></tr>
       <tr>
         <td>
@@ -219,31 +236,59 @@
     </table>
     <img src="img.svg" alt="img" />
     <div
-      class="row"
+      class="row d-flex justify-content-center align-items-center flex-column"
       style="
-        display: flex;
-        justify-content: center;
-        padding: 0.5%;
         background-color: #f19075;
-        margin-left: 0%;
         max-width: 100vw;
         margin-top: 2%;
       "
     >
-      <footer id="footer">
-        <div class="col-4">
-          <h1
+    <div class="row">
+          <h1 class="text-uppercase"
             style="font-family: 'Quicksand'; color: #3e3e3e; text-align: center"
           >
             &copy; Divya Prakash 2020
           </h1>
+          </div>
+          <div class="row">
           <h2
             style="font-family: 'Quicksand'; color: #3e3e3e; text-align: center"
           >
             Happy Coding :-)
-          </h2>
+          </h2></div>
+          <div class="row">
+            <div class="text-center">
+              <a
+                class="btn btn-social-icon btn-google"
+                href="http://google.com/+"
+                ><i class="fa fa-google-plus fa-lg"></i
+              ></a>
+              <a
+                class="btn btn-social-icon btn-facebook"
+                href="http://www.facebook.com/profile.php?id="
+                ><i class="fa fa-facebook-square fa-lg"></i
+              ></a>
+              <a
+                class="btn btn-social-icon btn-linkedin"
+                href="http://www.linkedin.com/in/"
+                ><i class="fa fa-linkedin fa-lg"></i
+              ></a>
+              <a
+                class="btn btn-social-icon btn-twitter"
+                href="http://twitter.com/"
+                ><i class="fa fa-twitter fa-lg"></i
+              ></a>
+              <a
+                class="btn btn-social-icon btn-google"
+                href="http://youtube.com/"
+                ><i class="fa fa-youtube fa-lg"></i
+              ></a>
+              <a class="btn btn-social-icon" href="mailto:"
+                ><i class="fa fa-envelope-o fa-lg"></i
+              ></a>
+            </div>
+          </div>
         </div>
-      </footer>
     </div>
   </body>
 </html>
