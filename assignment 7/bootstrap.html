@@ -21,17 +21,33 @@
     <style>
       body,
       html {
-        background: url("weblab.jpg")no-repeat center center fixed;
+        background: url("weblab.jpg") no-repeat center center fixed;
         background-size: cover;
         width: 100vw;
         height: 100vh;
       }
       .button:hover {
         border: 2px solid red;
-        background-color:darkturquoise;
-        width: 110%;
-        transform: rotate(2deg);
-        color: #ffffff;
+        background-color: darkturquoise;
+        animation: animate 2s infinite;
+      }
+      @keyframes animate {
+        0% {
+          border: 2px solid crimson;
+          background-color: darkturquoise;
+        }
+        50% {
+          transform: scale(1.5, 1.5) rotate(5deg);
+          background-color: salmon;
+        }
+        75% {
+          transform: scale(1.5, 1.5) rotate(-5deg);;
+          background-color: salmon;
+        }
+        100% {
+          border: 2px solid crimson;
+          background-color: darkturquoise;
+        }
       }
       .row {
         width: 99vw;
@@ -50,15 +66,14 @@
       class="row d-flex justify-content-center align-items-center type flex-column"
     >
       <h1 class="head">DIVYA PRAKASH 1906015</h1>
-
     </div>
     <div class="row col-sm-2 align-self-center">
-            <a
-              class="btn btn-block btn-warning btn-lg button"
-              data-toggle="modal"
-              data-target="#reserveModal"
-              >Demo Button</a
-            >
-          </div>
+      <a
+        class="btn btn-block btn-warning btn-lg button"
+        data-toggle="modal"
+        data-target="#reserveModal"
+        >Demo Button</a
+      >
+    </div>
   </body>
 </html>
