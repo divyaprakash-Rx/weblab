@@ -21,3 +21,7 @@ All Assignment for the web class
 [Assignment 5 - Bootstrap Components](https://divyaprakash-rx.github.io/weblab/assignment%205/bootstrap.html)
 
 [Assignment 6 - Responsive Background](https://divyaprakash-rx.github.io/weblab/assignment%206/git.html)
+
+[Assignment 7 - Bootstrap](https://divyaprakash-rx.github.io/weblab/assignment%207/bootstrap.html)
+
+[Assignment 7 - Flex images](https://divyaprakash-rx.github.io/weblab/assignment%207/images.html)
