@@ -20,12 +20,12 @@
         25% {
           width: 350px;
           height: 350px;
-          transform: rotate(10deg)
+          transform: rotate(10deg);
         }
-        75%{
-           width: 350px;
+        75% {
+          width: 350px;
           height: 350px;
-          transform: rotate(-10deg)
+          transform: rotate(-10deg);
         }
         100% {
           width: 400px;
@@ -51,11 +51,38 @@
         text-align: center;
         color: rgb(85, 23, 0);
       }
+      .head {
+        transition: all 1s;
+      }
+      .head:hover {
+        color: chocolate;
+        animation: animate 2s infinite;
+      }
+      @keyframes animate {
+        0% {
+          color: rgb(85, 23, 0);
+        }
+        50% {
+          color: chocolate;
+          font-size: 3rem;
+          transform: translateY(40px);
+          text-decoration: underline;
+        }
+        75% {
+          color: coral;
+          font-size: 3rem;
+          transform: translateY(40px);
+          text-decoration: underline;
+        }
+        100% {
+          color: rgb(85, 23, 0);
+        }
+      }
     </style>
   </head>
   <body>
     <h1>Flexbox with Wrap images</h1>
-
+    <h1 class="head">DIVYA PRAKASH 1906015</h1>
     <div class="row2">
       <img
         src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg"
