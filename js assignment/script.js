@@ -15,5 +15,5 @@ function insertionSort(nums){
 }
 
 var sortedNums=insertionSort(nums);
-console.log(`After applying insertion sort, array is:- \n`)
+console.log(`After applying insertion sort, array is:- \n ${sortedNums}`)
 console.log(sortedNums);
